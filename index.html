@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladrón de Perros</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#info">Información</a></li>
+                <li><a href="#trailer">Tráiler</a></li>
+                <li><a href="#screenshots">Capturas</a></li>
+                <li><a href="#carousel">Más Tráilers</a></li>
+                <li><a href="#cta">Compra</a></li>
+            </ul>
+        </nav>
+        <h1>Ladrón de Perros</h1>
+        <h2>Una historia de lealtad y redención</h2>
+    </header>
+
+    <section id="info" class="info">
+        <h3>Información de la Película</h3>
+        <p>Sumérgete en la historia de un hombre que se enfrenta a sus demonios mientras busca redención y amor en un mundo difícil.</p>
+    </section>
+
+    <section id="trailer" class="trailer">
+        <h3>Tráiler</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="carousel" class="carousel-section">
+        <h3>Más Tráilers</h3>
+        <div class="carousel">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+
+            <div class="slides">
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="controls">
+                <label for="slide1" class="control">1</label>
+                <label for="slide2" class="control">2</label>
+                <label for="slide3" class="control">3</label>
+            </div>
+        </div>
+    </section>
+
+    <section id="screenshots" class="screenshots">
+        <h3>Capturas de Pantalla</h3>
+        <div class="screenshot">
+            <img src="screenshot1.jpg" alt="Captura 1">
+            <img src="screenshot2.jpg" alt="Captura 2">
+            <img src="screenshot3.jpg" alt="Captura 3">
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <h3>¡Compra Ahora!</h3>
+        <button onclick="window.location.href='http://tu-sitio-de-boletos.com'">Compra Aquí</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ladrón de Perros. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
